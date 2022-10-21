@@ -1,6 +1,7 @@
 package main
 import "fmt"
 
+// https://leetcode.com/problems/contains-duplicate-ii/
 func containsNearbyDuplicate(nums []int, k int) bool {
     m := make(map[int]int)
     for i, v := range nums {
